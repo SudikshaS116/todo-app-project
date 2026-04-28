@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+  <h2>📋 To-Do Dashboard</h2>
+
+  <div class="task-box">
+    <input type="text" id="taskInput" placeholder="Task Title">
+    <input type="date" id="dueDate">
+    <textarea id="notes" placeholder="Enter notes..."></textarea>
+    <button onclick="addTask()">Add Task</button>
+  </div>
+
+  <ul id="taskList"></ul>
+
+  <button class="logout-btn" onclick="logout()">Logout</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
